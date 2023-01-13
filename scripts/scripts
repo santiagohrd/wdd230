@@ -1,0 +1,5 @@
+const copyright = document.querySelector('#copyright');
+copyright.textContent = `© ${new Date().getFullYear()}`;
+
+const date_updated = new Date(date_updated.lastModified);
+date_updated.textContent = `${date_updated}`;
