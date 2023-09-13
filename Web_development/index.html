@@ -2,9 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santiago Herrera</title>
+    <meta name="author" content="Santiago Herrera" />
+    <meta name="description"
+        content="This is my repository Jaime Santiago Herrera David of the course WDD 230 - Web Frontend Development - BYU-Idaho. https://byui-cse.github.io/wdd230-course/ ">
+    <title>Santiago Herrera - WDD 230 - Web Frontend Development"</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -17,45 +19,42 @@
     </header>
     <nav>
         <ul>
-            <li>Home</li>
-            <li>Site Plan</li>
-            <li>Chamber</li>
-            <li>BYU-Idaho</li>
-            <li>Scripture</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="chamber/siteplan.html">Site Plan</a></li>
+            <li><a href="chamber/">Chamber</a></li>
+            <li><a href="https://byui.instructure.com/courses/265626" target="_blank">BYU-Idaho</a></li>
+            <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng" target="_blank">Scripture</a></li>
         </ul>
     </nav>
     <main>
         <h2>WDD 230: Web fronted Development</h2>
-        <ul>
-            <li>01: <a href="lesson01/holygrail.html">Holy Layout | JS Pen</a></li>
-            <li>02: <a href="">Title</a></li>
-            <li>03: <a href="">Title</a></li>
-            <li>04: <a href="">Title</a></li>
-            <li>05: <a href="">Title</a></li>
-            <li>06: <a href="">Title</a></li>
-            <li>07: <a href="">Title</a></li>
-            <li>08: <a href="">Title</a></li>
-            <li>09: <a href="">Title</a></li>
-            <li>10: <a href="">Title</a></li>
-            <li>11: <a href="">Title</a></li>
-        </ul>
+        <section class="card">
+            <h3>Learning Activities</h3>
+            <ul>
+                <li>01: <a href="lesson01/holygrail.html">Holy Layout | JS Pen</a></li>
+                <li>02: <a href="">Title</a></li>
+                <li>03: <a href="">Title</a></li>
+                <li>04: <a href="">Title</a></li>
+                <li>05: <a href="">Title</a></li>
+                <li>06: <a href="">Title</a></li>
+                <li>07: <a href="">Title</a></li>
+                <li>08: <a href="">Title</a></li>
+                <li>09: <a href="">Title</a></li>
+                <li>10: <a href="">Title</a></li>
+                <li>11: <a href="">Title</a></li>
+            </ul>
+        </section>
+        <section class="card">
+            <h3>Information</h3>
+            <div class="location"></div>
+            <div class="weather"></div>
+            <div class="visitors"></div>
+        </section>
     </main>
-    <section>
-        <div>
-            <h2>Information</h2>
-        </div>
-        <p>Bogotá, Colombia</p>
-
-    </section>
     <footer>
-        <div class="footer_credits">
-            <p><span id="copyright"></span>2023</p>
-            <p>Jaime Santiago Herrera David</p>
-            <p>Colombia</p>
-        </div>
-        <div class="footer_update">
-            <p>Last Modification: <span id="footer_update"></span>
-        </div>
+        <p>&copy 2023 Jaime Santiago Herrera David Colombia</p>
+        <p id="lastModified"></p>
+    </footer>
     <script src="scripts/app.js"></script>
 </body>
 </html>
