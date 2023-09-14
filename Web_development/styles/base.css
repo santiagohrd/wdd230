@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
 body {
     background-color: #F3F3F3;
 }
 .nav_info {
     background-color: #4B8FC1;
     color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -12,9 +16,11 @@ body {
 img {
     height: 150px;
     padding-right: 50px;
+    border-radius: 100px;
 }
 nav {
     background-color: #071C2B;
+    font-family: 'Josefin Sans', sans-serif;
     color: antiquewhite;
     height: 250px;
     display: flex;
@@ -28,16 +34,19 @@ nav ul {
 }
 nav ul li a {
     text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
     color: antiquewhite;
 }
 main {
     display: grid;
 }
 main h2 {
+    font-family: 'Josefin Sans', sans-serif;
     text-decoration: underline;
     justify-self: center;
 }
 .card {
+    font-family: 'Josefin Sans', sans-serif;
     border-style: solid;
     border-radius: 8px;
     margin: 12px;
@@ -52,4 +61,24 @@ main h2 {
 }
 .card ul {
     list-style: none;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+section p {
+    display: grid;
+    justify-content: center;
+}
+footer {
+    color: antiquewhite;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #4B8FC1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 120px;
+}
+footer p{
+    margin: 0%;
 }
