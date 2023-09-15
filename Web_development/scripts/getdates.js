@@ -1,13 +1,16 @@
-const lastModified = document.querySelector('#lastModified');
 
 const options = {
-    weekday: "long",
     day: "numeric",
-    month: "long",
-    year: "numeric"
+    month: "numeric",
+    year: "numeric",
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric"
 };
 
-lastModified.innerHTML = new Date().toLocaleDateString("en-UK", options);
+const newDate = new Date(document.lastModified).toLocaleDateString("en-UK", options);
+
+document.querySelector('#lastModified').innerHTML = `Last modification: ${newDate}`;
 
 const copyright = document.querySelector('#copyright');
 
