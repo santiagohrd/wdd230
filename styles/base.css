@@ -6,7 +6,7 @@ body {
 }
 .nav_info {
     background-color: #4B8FC1;
-    color: antiquewhite;
+    color: #ffffff;
     font-family: 'Josefin Sans', sans-serif;
     height: 200px;
     display: flex;
@@ -20,9 +20,9 @@ img {
     justify-items: center;
 }
 nav {
-    background-color: #071C2B;
+    background-color: #616161;
     font-family: 'Josefin Sans', sans-serif;
-    color: antiquewhite;
+    color: #ffffff;
     height: 250px;
     display: flex;
     justify-content: center;
@@ -35,7 +35,7 @@ nav ul {
 nav ul li a {
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
-    color: antiquewhite;
+    color: #ffffff;
 }
 main {
     display: grid;
