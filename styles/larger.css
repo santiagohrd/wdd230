@@ -1,0 +1,14 @@
+@media screen and (min-width: 500px) {
+    nav {
+        height: 120px;
+    }
+    nav ul{
+        width: 50%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+	nav ul li {
+		flex: 1 1 100%;
+	}
+}
