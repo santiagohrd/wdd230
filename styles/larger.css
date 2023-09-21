@@ -11,4 +11,11 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
+    main {
+        grid-template-columns: 70% auto;
+    }
+    main h2{
+        grid-column: 1/3;
+    }
+    
 }
