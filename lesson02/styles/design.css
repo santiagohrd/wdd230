@@ -34,8 +34,8 @@ article p {
 }
 
 .callout {
-	color: #777;
-	background-color: #702963;
+	color: #0e0104;
+	background-color: #afacae;
     padding: 25px;
 	grid-column: 1/3;
 }
