@@ -66,6 +66,7 @@ nav ul li a {
 .navigation li a:hover {
     background-color: #bbb;
 	font-weight: 700;
+    border-radius: 30%;
 }
 
 .stuff {
