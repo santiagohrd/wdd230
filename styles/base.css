@@ -53,7 +53,6 @@ nav ul li a {
 	content: "✖️";
 }
 
-
 .navigation li {
 	display: none;
 }
@@ -119,6 +118,14 @@ section p {
     display: grid;
     justify-content: center;
 }
+
+.map {
+    display: flex;
+    justify-content: center;
+    object-fit: contain;
+    padding: 20px;   
+}
+
 footer {
     color: #c7c7c6;
     font-family: 'Josefin Sans', sans-serif;
