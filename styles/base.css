@@ -84,6 +84,11 @@ nav ul li a {
     display: block;
 }
 
+.active.active  {
+	background-color: #4B8FC1;
+    border-radius: 30%;
+}
+
 main {
     display: grid;
 }
