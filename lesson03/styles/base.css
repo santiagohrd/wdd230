@@ -8,16 +8,48 @@
 
 *{
     font-family: var(--p_font);
+    background-color: beige;
 }
 
 body{
     padding: 25px;
 }
 
-h1{
+h1, h3{
     font-family: var(--t_font);
+}
+
+h3 {
+    font-size: x-large;
+}
+
+p{
+    font-family: var(--p_font);
+}
+
+section{
+    margin: 60px;
 }
 
 img{
     width:60%;
+}
+
+.wireframe{
+    height: 30%;
+}
+
+footer {
+    color: #c7c7c6;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #062c47;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 120px;
+}
+footer p{
+    margin: 0%;
+    background-color: #062c47;
+    color: antiquewhite;
 }
