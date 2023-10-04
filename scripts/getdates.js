@@ -1,4 +1,3 @@
-
 const options = {
     day: "numeric",
     month: "numeric",
