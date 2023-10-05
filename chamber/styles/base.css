@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Raleway:wght@300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Raleway:wght@300&family=Sriracha&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    --s_font: 'Raleway', sans-serif;
+    --p_font: 'Sriracha', cursive;
+    --p_color: #1C0A8f;
+    --s_color: #FED000;
+    --p_color_text: #FFFFFF;
+    --s_color_text: #0F1020;
+}
+
+body{
+    font-family: var(--s_font);
+}
