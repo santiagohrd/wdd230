@@ -1,0 +1,34 @@
+@media screen and (min-width: 550px){
+    #menu{
+        display: none;
+    }
+
+    .navigation{
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    nav {
+        height: 120px;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px; 
+    }
+
+    .navigation li{
+        list-style: none;
+        display: list-item;
+    }
+
+    .hero-image img{
+        height: 400px;
+    }
+
+    .event-info{
+        display: flex;
+    }
+}

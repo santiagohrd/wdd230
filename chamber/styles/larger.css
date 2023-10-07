@@ -1,0 +1,49 @@
+@media screen and (min-width: 1000px) {
+
+    .hero-image img{
+        height: 600px;
+    }
+
+    .event-info{
+        display: block;
+    }
+
+    .weather-event{
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .spot-info{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+    .spot-info h2{
+        grid-column: 1 / 4;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: 70% auto;
+    }
+
+    .social-media{
+        grid-row: 1 / 2;
+        grid-column: 3 / 4;
+    }
+
+    
+    .social-media{
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+    }
+    
+    .social-media h3{
+        display: contents;
+    }
+
+    .wdd230-info{
+        grid-row: 2 / 3;
+    }
+}

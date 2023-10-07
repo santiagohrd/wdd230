@@ -22,6 +22,7 @@
 
     .navigation li{
         display: list-item;
+        text-decoration: none;
     }
 
     main {
