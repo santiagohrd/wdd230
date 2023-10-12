@@ -1,9 +1,5 @@
 @media screen and (min-width: 1000px) {
 
-    .hero-image img{
-        height: 600px;
-    }
-
     .event-info{
         display: block;
     }
