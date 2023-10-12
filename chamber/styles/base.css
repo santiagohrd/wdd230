@@ -17,6 +17,10 @@ body{
 
 }
 
+#mode{
+    cursor: pointer;
+}
+
 .nav-menu{
     background-color: var(--p_color);
     color: var(--p_color_text);
