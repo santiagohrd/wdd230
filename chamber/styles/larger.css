@@ -1,5 +1,10 @@
 @media screen and (min-width: 1000px) {
 
+    #mode{
+        position: absolute;
+        top: 0px;
+    }
+
     .event-info{
         display: block;
     }
