@@ -21,7 +21,7 @@
     <body>
         <header class="nav-menu">
             <div class="picture">
-                <img src="images/logo.png" alt="Bogota Chamber of Commerce's logo">
+                <img src="images/logo.webp" alt="Bogota Chamber of Commerce's logo">
             </div>
             <nav>
                 <div class="nav-title">
@@ -44,7 +44,11 @@
             </div>
             <div class="hero-image">
                 <button id="join">Join us!</button>
-                <img src="https://via.placeholder.com/1800x600" alt="#">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width:600px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width:1000px)">
+                    <img src="images/hero-large.webp" alt="Templo de Barranquilla" width="1500" height="850">
+                </picture>
             </div>
             <section class="weather-event">
                 <div class="event-info">
