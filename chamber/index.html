@@ -69,10 +69,14 @@
                     <h2>Weather</h2>
                     <img src="https://via.placeholder.com/100x100" alt="">
                     <div class="weather-data">
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet.</p>
+                        <label for="temperature">Enter Temperature (in °F):</label>
+                        <input type="number" id="temperature" placeholder="Enter temperature">
+                        <br>
+                        <label for="windSpeed">Enter Wind Speed (in mph):</label>
+                        <input type="number" id="windSpeed" placeholder="Enter wind speed">
+                        <br>
+                        <button onclick="calculateWindChill()">Calculate Wind Chill</button>
+                        <h2>Wind Chill Factor: <span id="windChillResult"></span></h2>
                     </div>
                 </div>
         </section>
@@ -126,5 +130,6 @@
     <script src="scripts/getdate.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
