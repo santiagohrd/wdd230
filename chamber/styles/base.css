@@ -71,11 +71,6 @@ body{
     display: block;
 }
 
-/* .active.active  {
-	background-color: #4B8FC1;
-    border-radius: 30%;
-} */
-
 .busi-options{
     background-color: var(--s_color);
     display: flex;
@@ -192,5 +187,18 @@ footer{
     justify-self: center;
     color: var(--s_color_text);
     margin: 18px;
+    text-align: center;
+}
+
+/* Discover */ 
+
+.sidebar-container{
+    background-color: #353646;
+    color: var(--p_color_text);
+    padding: 12px;
+    margin: 8px;
+}
+
+.sidebar-container h3{
     text-align: center;
 }
