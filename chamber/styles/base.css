@@ -241,11 +241,17 @@ form input.form-btn{
     text-align: center;
 }
 
+legend{
+    font-weight: bolder;
+    padding: 8px;
+}
+
 /*Table: Benefits */
 table {
-	margin: 0 auto;
+	margin: auto;
 	border: thin solid black;
 	border-collapse: collapse;
+    max-height: 600px;
 }
 
 caption {
