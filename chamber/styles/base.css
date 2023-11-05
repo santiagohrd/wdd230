@@ -206,26 +206,28 @@ footer{
 /* Join */
 form{
     margin: 2rem ;
+    width: 70%;
 }
 form label.top input, form label.top select, form label.top textarea{
     display: block;
     font-size: 1rem;
-    border: solid 1px #999;
+    border: solid 1px #b1b1b1;
     border-radius: 4px;
     padding: .5rem;
     margin: 12px 0;
-    color: #555;
+    color: var(--s_color_text);
     width: 100%;
     max-width: 30rem;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(174, 190, 26, 0.1);
 }
 
 form input.form-btn{
     border: none;
     cursor: pointer;
+    font-size: 18px;
     background-color: var(--p_color);
     color: var(--p_color_text);
-    border-radius: 1rem;
+    border-radius: 10px;
     padding: .75rem 1.5rem;
     margin: .5rem 0 2rem 2%;
     width: 96%;
@@ -249,30 +251,29 @@ legend{
 /*Table: Benefits */
 table {
 	margin: auto;
-	border: thin solid black;
+	border: 1px solid black;
 	border-collapse: collapse;
-    max-height: 600px;
 }
 
 caption {
   padding: 10px;
   caption-side: bottom;
-	color: black;
+    color: black;
 	font-size: 16px;
 }
 
 tr:first-child th, .highlight, #highlight {
-	background-color: black;
+	background-color: #164863;
 	color: white;
 }
 
 th, td {
 	padding: 7px 15px;
-	border: 1px solid hsla(0,0%,33%,.3);
+	border: 1px solid hsla(0, 0%, 33%, 0.3);
 }
 
 th {
-	background-color: #585858;
+	background-color: #071952;
 	color: white;
 	font-size: larger;
 }
@@ -282,5 +283,5 @@ td {
 }
 
 tbody tr:nth-child(even) {
-	background-color: hsl(0, 0%, 93%, 1);
+	background-color: #F1EAFF;
 }
