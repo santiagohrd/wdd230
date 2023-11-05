@@ -1,0 +1,40 @@
+body {
+	font-family: "EB Garamond", Arial, serif;
+}
+
+table {
+	margin: 0 auto;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: 16px;
+}
+
+tr:first-child th, .highlight, #highlight {
+	background-color: black;
+	color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid hsla(0,0%,33%,.3);
+}
+
+th {
+	background-color: #585858;
+	color: white;
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: hsl(0, 0%, 93%, 1);
+}
