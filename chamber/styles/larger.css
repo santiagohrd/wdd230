@@ -57,5 +57,11 @@
         padding: 0 10px;
         content: "   |   ";
     }
+
+    /* Join */
+    .join-main{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
     
 }

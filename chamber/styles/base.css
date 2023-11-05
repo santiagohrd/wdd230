@@ -202,3 +202,79 @@ footer{
 .sidebar-container h3{
     text-align: center;
 }
+
+/* Join */
+form{
+    margin: 2rem ;
+}
+form label.top input, form label.top select, form label.top textarea{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .5rem;
+    margin: 12px 0;
+    color: #555;
+    width: 100%;
+    max-width: 30rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.form-btn{
+    border: none;
+    cursor: pointer;
+    background-color: var(--p_color);
+    color: var(--p_color_text);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: .5rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+.form-btn:hover{
+    font-size: 1.5rem;
+}
+
+.thankyou{
+    margin: 12rem;
+    text-align: center;
+}
+
+/*Table: Benefits */
+table {
+	margin: 0 auto;
+	border: thin solid black;
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: black;
+	font-size: 16px;
+}
+
+tr:first-child th, .highlight, #highlight {
+	background-color: black;
+	color: white;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid hsla(0,0%,33%,.3);
+}
+
+th {
+	background-color: #585858;
+	color: white;
+	font-size: larger;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: hsl(0, 0%, 93%, 1);
+}
