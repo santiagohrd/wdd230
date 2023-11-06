@@ -1,0 +1,79 @@
+{
+    "new-ward-members": [
+        {
+            "family_name": "Herrera Pedraza",
+            "moved_date": "10-23-2021",
+            "num_members": 4,
+            "visitedByBishopric": 1,
+            "members": [
+                {
+                    "name": "Santiago Herrera",
+                    "gender": "M",
+                    "birthdate": "12 dec 1993"
+                },
+                {
+                    "name": "Lady Pedraza",
+                    "gender": "F",
+                    "birthdate": "12 dec 1993"
+                },
+                {
+                    "name": "Kaori Pedraza",
+                    "gender":"M",
+                    "birthdate": "12 dec 1993"
+                }
+            ]
+        },
+        {
+            "family_name": "Botia Avila",
+            "moved_date": "10-25-2021",
+            "num_members": 5,
+            "visitedByBishopric": 1,
+            "members":[
+                {
+                    "name": "Cesar Botia",
+                    "gender": "M",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Ruth Avila",
+                    "gender": "F",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Angelica Botia",
+                    "gender": "F",
+                    "birthdate":"12 dec 1987"
+                },
+                {
+                    "name": "Luisa Botia",
+                    "gender": "F",
+                    "birthdate": "12 dec 1987"
+                },
+                {
+                    "name": "Camila Botia",
+                    "gender": "F",
+                    "birthdate":"12 dec 1987"
+                }
+            ]
+
+        },
+        {
+            "family_name": "Beltran David",
+            "moved_date": "10-25-2023",
+            "num_members": 2,
+            "visitedByBishopric": 0,
+            "members":[
+                {
+                    "name": "David Beltran",
+                    "gender": "M",
+                    "birthdate": "01 Apr 1962"
+                },
+                {
+                    "name": "Adriana David",
+                    "gender": "F",
+                    "birthdate": "06 Feb 1972"
+                }
+            ]
+        }
+    ]
+}
