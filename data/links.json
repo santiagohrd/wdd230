@@ -6,10 +6,6 @@
                 {
                     "url": "lesson01/holygrail.html",
                     "title": "Holy Layout"
-                },
-                {
-                    "url": "https://codepen.io/santiagohrd/pen/LYMyyrP",
-                    "title": "JS Pen"
                 }
             ]
         },
@@ -36,14 +32,6 @@
                 {
                     "url": "lesson03/images/w3school.webp",
                     "title": "CSS Combinators"
-                },
-                {
-                    "url": "https://codepen.io/santiagohrd/pen/abPYgwp",
-                    "title": "CSS Pseudo-elements"
-                },
-                {
-                    "url": "https://codepen.io/santiagohrd/pen/poqVJax",
-                    "title": "Responsive Hamburger Menu"
                 },
                 {
                     "url": "lesson03/chamber-site-plan.html",
