@@ -1,0 +1,52 @@
+{
+    "Companies": [
+        {
+            "name": "Teleperformance",
+            "address": "Ac. 26 #32",
+            "phone number": "4049080",
+            "Website": "https://www.teleperformance.com/en-us/locations/colombia-site/colombia/",
+            "image": "teleperformance.webp",
+            "membership level": "Gold"
+        },
+        {
+            "name": "Postobon",
+            "address": "Cl. 17a #75",
+            "phone number": "2204300",
+            "Website": "https://www.postobon.com/",
+            "image": "postobon.webp",
+            "membership level": "Bronze"
+        },
+        {
+            "name": "Alquería",
+            "address": "Cra. 52c #43 sur",
+            "phone number": "2361453",
+            "Website": "https://www.alqueria.com.co/",
+            "image": "Alqueria.webp",
+            "membership level": "Silver"
+        },
+        {
+            "name": "Alpina",
+            "address": "Km 3, vía Briceño Sopó",
+            "phone number": "2442018",
+            "Website": "https://alpina.com/alpinago",
+            "image": "alpina.webp",
+            "membership level": "Silver"
+        },
+        {
+            "name": "Poseidon",
+            "address": "Av. Cra. 30 #77-48",
+            "phone number": "3287643",
+            "Website": "https://poseidonbogota.com/",
+            "image": "poseidon.webp",
+            "membership level": "NP Membership"
+        },
+        {
+            "name": "Crepes & Waffles",
+            "address": "Cl. 148 #104-20",
+            "phone number": "6767600",
+            "Website": "https://www.crepesywaffles.com/",
+            "image": "Crepes-Waffles.webp",
+            "membership level": "Gold"
+        }
+    ]
+}
