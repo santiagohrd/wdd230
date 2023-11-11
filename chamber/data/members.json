@@ -3,50 +3,50 @@
         {
             "name": "Teleperformance",
             "address": "Ac. 26 #32",
-            "phone number": "4049080",
-            "Website": "https://www.teleperformance.com/en-us/locations/colombia-site/colombia/",
-            "image": "teleperformance.webp",
-            "membership level": "Gold"
+            "phone_number": "4049080",
+            "Website": "https://www.teleperformance.com",
+            "image": "../images/teleperformance.webp",
+            "membership_level": "Gold"
         },
         {
             "name": "Postobon",
             "address": "Cl. 17a #75",
-            "phone number": "2204300",
+            "phone_number": "2204300",
             "Website": "https://www.postobon.com/",
             "image": "postobon.webp",
-            "membership level": "Bronze"
+            "membership_level": "Bronze"
         },
         {
             "name": "Alquería",
             "address": "Cra. 52c #43 sur",
-            "phone number": "2361453",
+            "phone_number": "2361453",
             "Website": "https://www.alqueria.com.co/",
             "image": "Alqueria.webp",
-            "membership level": "Silver"
+            "membership_level": "Silver"
         },
         {
             "name": "Alpina",
             "address": "Km 3, vía Briceño Sopó",
-            "phone number": "2442018",
-            "Website": "https://alpina.com/alpinago",
-            "image": "alpina.webp",
-            "membership level": "Silver"
+            "phone_number": "2442018",
+            "Website": "https://alpina.com/",
+            "image": "data/alpina.webp",
+            "membership_level": "Silver"
         },
         {
             "name": "Poseidon",
             "address": "Av. Cra. 30 #77-48",
-            "phone number": "3287643",
+            "phone_number": "3287643",
             "Website": "https://poseidonbogota.com/",
             "image": "poseidon.webp",
-            "membership level": "NP Membership"
+            "membership_level": "NP Membership"
         },
         {
             "name": "Crepes & Waffles",
             "address": "Cl. 148 #104-20",
-            "phone number": "6767600",
+            "phone_number": "6767600",
             "Website": "https://www.crepesywaffles.com/",
             "image": "Crepes-Waffles.webp",
-            "membership level": "Gold"
+            "membership_level": "Gold"
         }
     ]
 }

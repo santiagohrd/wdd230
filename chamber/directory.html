@@ -39,90 +39,10 @@
         </header>  
         
         <main class="join-main">
-            
-            <form action="thankyou.html" method="get">
-                <fieldset>
-                    <legend>Lets join BCC</legend>
-                    <label class="top">First name* <input type="text" name="fname" required id="fname"></label>
-                    <label class="top">Last name* <input type="text" name="lname" required id="lname"></label>
-                    <label class="top">Title or position <input type="text" name="title" id="title" pattern="^[a-zA-Z -]{7,}$" title="Only accept alpha characters, hyphens, and spaces with a minimum of seven characters"></label> 
-                    <label class="top">Email address* <input type="email" name="email" placeholder="yourmail@domain.com" id="email" required></label>
-                    <label class="top">Phone number*<input type="tel" name="phone" id="phone" required></label>
-                    <label class="top">Business/Organization's name* <input type="text" name="Organization" id="organization" required></label>
-                    <label class="top">Membership level
-                        <select name="level">
-                            <option value="">Please Select &#9662;</option>
-                            <option value="NP">NP Membership</option>
-                            <option value="Bronze">Bronze Membership</option>
-                            <option value="Silver">Silver Membership</option>
-                            <option value="Gold">Gold Membership</option>
-                        </select> </label>
-                    <label class="top">Business/Organization's Description <textarea rows="6" cols="50" name="description"></textarea></label>
-                    <label><input type="hidden" name="timestamp" id="timestamp"></label>
-                </fieldset>
-
-                <label><input type="submit" value="Join me!" class="form-btn"></label>
-            </form>
-
-            <table>
-                <caption>Table 1: Membership level benefits</caption>
-                <thead>
-                    <tr>
-                        <th colspan="5">BBC Membership levels</th>
-                    </tr>
-                    <tr>
-                        <th scope="col" id="highlight"></th>
-                        <th scope="col">Non profit organizations</th>
-                        <th scope="col">Bronze</th>
-                        <th scope="col">Silver</th>
-                        <th scope="col">Gold</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Business consulting</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                    </tr>
-                    <tr>
-                        <td>Data and Resources</td>
-                        <td>❌</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                    </tr>
-                    <tr>
-                        <td>Trainings</td>
-                        <td>❌</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                    </tr>
-                    <tr>
-                        <td>Event discounts</td>
-                        <td>❌</td>
-                        <td>❌</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                    </tr>
-                    <tr>
-                        <td>Entrepreneur Networking</td>
-                        <td>❌</td>
-                        <td>❌</td>
-                        <td>✔️</td>
-                        <td>✔️</td>
-                    </tr>
-                    <tr>
-                        <td>Legal advice</td>
-                        <td>❌</td>
-                        <td>❌</td>
-                        <td>❌</td>
-                        <td>✔️</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div id="members">
+                <button id="grid">⏹️Grid</button>
+		        <button id="list">📄List</button>
+            </div>
         </main>
     <footer>
         <div class="footer-info">
@@ -158,6 +78,6 @@
     <script src="scripts/getdate.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/darkmode.js"></script>
-    <script src="scripts/windchill.js"></script>
+    <script src="scripts/member.js"></script>
 </body>
 </html>
