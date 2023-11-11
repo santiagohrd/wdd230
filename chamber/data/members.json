@@ -5,7 +5,7 @@
             "address": "Ac. 26 #32",
             "phone_number": "4049080",
             "Website": "https://www.teleperformance.com",
-            "image": "../images/teleperformance.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/teleperformance.webp",
             "membership_level": "Gold"
         },
         {
@@ -13,7 +13,7 @@
             "address": "Cl. 17a #75",
             "phone_number": "2204300",
             "Website": "https://www.postobon.com/",
-            "image": "postobon.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/postobon.webp",
             "membership_level": "Bronze"
         },
         {
@@ -21,7 +21,7 @@
             "address": "Cra. 52c #43 sur",
             "phone_number": "2361453",
             "Website": "https://www.alqueria.com.co/",
-            "image": "Alqueria.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/Alqueria.webp",
             "membership_level": "Silver"
         },
         {
@@ -29,7 +29,7 @@
             "address": "Km 3, vía Briceño Sopó",
             "phone_number": "2442018",
             "Website": "https://alpina.com/",
-            "image": "data/alpina.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/alpina.webp",
             "membership_level": "Silver"
         },
         {
@@ -37,7 +37,7 @@
             "address": "Av. Cra. 30 #77-48",
             "phone_number": "3287643",
             "Website": "https://poseidonbogota.com/",
-            "image": "poseidon.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/poseidon.webp",
             "membership_level": "NP Membership"
         },
         {
@@ -45,7 +45,7 @@
             "address": "Cl. 148 #104-20",
             "phone_number": "6767600",
             "Website": "https://www.crepesywaffles.com/",
-            "image": "Crepes-Waffles.webp",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/Crepes-Waffles.webp",
             "membership_level": "Gold"
         }
     ]
