@@ -18,18 +18,20 @@ function displayInfo(company){
         let address = document.createElement("p");
         let phone = document.createElement("p");
         let web = document.createElement("a");
-
+        
         name.textContent = `${business.name}`;
         address.textContent = `${business.address}`;
         phone.textContent = `${business.phone_number}`;
         web.textContent = `${business.Website}`;
+
+        web.setAttribute("href", `${business.Website}`)
+        web.setAttribute("target", "_blank");
 
         logo.setAttribute("src", business.image);
         logo.setAttribute("alt", `Logo of ${business.name}`);
         logo.setAttribute("loading", "lazy");
         logo.setAttribute("max-width", "100%");
         logo.setAttribute("height", "75");
-
 
         card.appendChild(logo);
         card.appendChild(name);
