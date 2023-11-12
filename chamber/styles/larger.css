@@ -63,5 +63,24 @@
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    
+
+    /* Discovery */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .grid img {
+        border: 1px solid #fff;
+    }
+
+
+
+    .list section > * {
+        max-width: 900px;
+        margin: 0 1rem;
+    }
+
 }
