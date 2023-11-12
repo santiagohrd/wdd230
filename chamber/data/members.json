@@ -47,6 +47,14 @@
             "Website": "https://www.crepesywaffles.com/",
             "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/Crepes-Waffles.webp",
             "membership_level": "Gold"
+        },
+        {
+            "name": "Falabella",
+            "address": "Cl 19A #72-57",
+            "phone_number": "4441234",
+            "Website": "https://www.falabella.com.co/",
+            "image": "https://santiagohrd.github.io/wdd230/chamber/data/images/falabella.webp",
+            "membership_level": "Silver"
         }
     ]
 }
