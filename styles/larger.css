@@ -38,6 +38,12 @@
 }
 
 @media (min-width: 750px){
+
+    section p{
+        display: flex;
+        place-content: center;
+    }
+
     .map{
         display: block;
     }
