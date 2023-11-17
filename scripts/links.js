@@ -30,9 +30,7 @@ function displayLinks(weeks) {
         const li = document.createElement('li');
         const a = document.createElement('a');
 
-        // Verificar si hay enlaces en la lección actual
         if (lesson.links.length > 0) {
-            // Acceder a los enlaces dinámicamente según la cantidad disponible
             for (let j = 0; j < lesson.links.length; j++) {
                 const link = lesson.links[j];
                 const linkText = ` ${lesson.lesson}: ${lesson.links[j].title} |`;
