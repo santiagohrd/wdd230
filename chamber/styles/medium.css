@@ -25,12 +25,20 @@
         display: list-item;
     }
 
+    #mode{
+        top: 20px;
+    }
+
     .hero-image img{
         height: 400px;
     }
 
     .event-info{
         display: flex;
+    }
+
+    .spot-card img{
+        display: block;
     }
 
 /* Discovery */
