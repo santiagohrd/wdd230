@@ -174,12 +174,13 @@ section{
 .spot-card{
     flex: 1;
     background-color: #f1f1f1;
-    margin: 10px 0;
+    margin: 10px;
     padding: 8px;
 }
 
 .spot-card img{
     display: none;
+    margin: 8px auto;
 }
 
 footer{

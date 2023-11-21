@@ -26,7 +26,8 @@
     footer{
         display: grid;
         grid-template-columns: repeat(4, auto);
-        grid-template-rows: 80% auto;
+        height: 250px;
+
     }
 
     .social-media{
@@ -51,6 +52,7 @@
         grid-row: 2 / 3;
         display: flex;
         align-items: center;
+        margin: 8px;
     }
 
     .wdd230-info p:not(:last-child)::after {
