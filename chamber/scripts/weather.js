@@ -4,10 +4,16 @@ const captionDesc = document.querySelector('#current');
 const humidity = document.querySelector('#humidity');
 const wind = document.querySelector('#wind');
 
-const forcast = document.querySelector('#forcast-temp');
+const forcast_day1 = document.querySelector('#forcast1');
+const forcast_day2 = document.querySelector('#forcast2');
+const forcast_day3 = document.querySelector('#forcast3');
+
+const forcast_date1 = document.querySelector('#forcast-day1');
+const forcast_date2 = document.querySelector('#forcast-day2');
+const forcast_date3 = document.querySelector('#forcast-day3');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=4.72&lon=-74.1&units=imperial&appid=de1bb7d255158b44de8c8b712ff9e354';
-const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=4.72&lon=-74.1&appid=de1bb7d255158b44de8c8b712ff9e354';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=4.72&lon=-74.1&appid=de1bb7d255158b44de8c8b712ff9e354';
 
 async function apiFetch(){
     try{
@@ -15,7 +21,6 @@ async function apiFetch(){
         if (response.ok){
             const data = await response.json();
             displayResults(data);
-            displayForcast(data);
         } else{
             throw Error(await response.text());
         }
@@ -25,7 +30,6 @@ async function apiFetch(){
 }
 
 apiFetch();
-
 
 function displayResults(data){
     currentTemp.innerHTML = `${data.main.temp.toFixed(0)} &deg;F`;
@@ -41,27 +45,48 @@ function displayResults(data){
     wind.innerHTML = `  ${data.wind.speed.toFixed(1)}`;
 }
 
-function displayForcast(data){
-    const dailyForecast = data.list.filter((reading) => reading.dt_txt.includes('12:00:00'));
-    for (let i = 0; i < 3; i++) {
-        const forecastItem = document.createElement('div');
-        forecastItem.classList.add('forecast-item');
-
-        const icon = document.createElement('img');
-        icon.setAttribute('src', `https://openweathermap.org/img/w/${dailyForecast[i].weather[0].icon}.png`);
-        icon.setAttribute('alt', dailyForecast[i].weather[0].description);
-
-        const temperature = document.createElement('span');
-        temperature.innerHTML = `${dailyForecast[i].main.temp.toFixed(0)} &deg;F`;
-
-        const desc = document.createElement('figcaption');
-        desc.textContent = dailyForecast[i].weather[0].description.replace(/\w\S*/g, (w) => w.replace(/^\w/, (c) => c.toUpperCase()));
-
-        forecastItem.appendChild(icon);
-        forecastItem.appendChild(temperature);
-        forecastItem.appendChild(desc);
-
-        forcast.appendChild(forecastItem);
+//Forcast
+async function forecastFetch() {
+    try {
+        const response = await fetch(forecastURL);
+        if (response.ok) {
+            const data = await response.json();
+            // console.log(data);
+            displayForecast(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
     }
 }
 
+
+function formatDate(date){
+    return date.substring(6, 11).replace(/-/g, '/')
+}
+
+function displayForecast(data){
+    let time = new Date(data.list[0].dt);
+
+    forcast_day1.innerHTML = `${data.list[0].main.temp}&deg;F`;
+    forcast_date1.innerHTML = `${formatDate(data.list[8].dt_txt)}`;
+
+    forcast_day2.innerHTML = `${data.list[8].main.temp}&deg;F`;
+    forcast_date2.innerHTML = `${formatDate(data.list[16].dt_txt)}`;
+
+    forcast_day3.innerHTML = `${data.list[16].main.temp}&deg;F`;
+    forcast_date3.innerHTML = `${formatDate(data.list[24].dt_txt)}`;
+}
+
+function capitalizeFirst(str){
+    const arr = str.split(" ");
+    for (var i = 0; i < arr.length; i++) {
+        arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    
+    }
+    const str2 = arr.join(" ");
+    return str2;
+}
+
+forecastFetch();
