@@ -248,6 +248,11 @@ footer{
 }
 
 /* Join */
+.join-main{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 form{
     margin: 2rem ;
     width: 70%;
@@ -260,7 +265,7 @@ form label.top input, form label.top select, form label.top textarea{
     padding: .5rem;
     margin: 12px 0;
     color: var(--s_color_text);
-    width: 100%;
+    width: 95%;
     max-width: 30rem;
     background-color: rgba(174, 190, 26, 0.1);
 }
@@ -294,9 +299,12 @@ legend{
 
 /*Table: Benefits */
 table {
+    width: 90%;
 	margin: auto;
+    margin-top: 12px;
 	border: 1px solid black;
 	border-collapse: collapse;
+    overflow-x: auto;
 }
 
 caption {
@@ -312,14 +320,14 @@ tr:first-child th, .highlight, #highlight {
 }
 
 th, td {
-	padding: 7px 15px;
+	padding: 5px;
 	border: 1px solid hsla(0, 0%, 33%, 0.3);
 }
 
 th {
 	background-color: #071952;
 	color: white;
-	font-size: larger;
+	font-size: 1rem;
 }
 
 td {

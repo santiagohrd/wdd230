@@ -51,4 +51,8 @@
         display: grid;
         grid-template-columns: 2fr 1fr 1fr 2fr;
     }
+
+    th, td {
+        padding: 7px 15px;
+    }
 }

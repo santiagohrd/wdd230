@@ -64,6 +64,13 @@
     .join-main{
         display: grid;
         grid-template-columns: 50% 50%;
+        justify-items: center;
+    }
+
+    table{
+        position: sticky;
+        top: 10px;
+        z-index: 1;
     }
 
     /* Discovery */
