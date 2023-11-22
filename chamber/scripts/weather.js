@@ -7,7 +7,7 @@ const wind = document.querySelector('#wind');
 const forecastContainer = document.querySelector('#forecast-container');
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?lat=4.72&lon=-74.1&units=imperial&appid=de1bb7d255158b44de8c8b712ff9e354';
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=4.72&lon=-74.1&appid=de1bb7d255158b44de8c8b712ff9e354';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=4.72&lon=-74.1&units=imperial&appid=de1bb7d255158b44de8c8b712ff9e354';
 
 async function apiFetch(){
     try{
