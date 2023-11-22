@@ -130,11 +130,6 @@ body{
     color: var(--s_color_text)
 }
 
-.busi-options{
-    margin-top: 10px;
-}
-
-
 .event-info{
     margin: 15px;
 }
@@ -143,6 +138,11 @@ body{
     background-color: #f1f1f1;
     padding: 10px;
     margin: 10px;
+    margin-bottom: 25px;
+}
+
+.event-hero:hover{
+    transform: scale(1.1);
 }
 
 .btn-event{
@@ -159,9 +159,12 @@ body{
     margin: 15px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .weather-info h2{
+    text-align: left;
     grid-column: 1 / 3;
 }
 

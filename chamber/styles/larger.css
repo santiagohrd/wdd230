@@ -8,11 +8,11 @@
     .event-info{
         display: block;
     }
-/* 
+
     .weather-event{
         display: grid;
         grid-template-columns: 60% auto;
-    } */
+    }
 
     .spot-info{
         display: grid;

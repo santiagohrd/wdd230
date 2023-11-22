@@ -41,6 +41,17 @@
         display: block;
     }
 
+    .forecast-grid {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-around; 
+        align-items: center;
+    }
+    
+    .forecast-item {
+        margin: 5px;
+    }
+
 /* Discovery */
     .grid {
         display: grid;
