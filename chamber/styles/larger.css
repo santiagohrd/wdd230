@@ -60,6 +60,17 @@
         content: "   |   ";
     }
 
+    /* Discover */
+
+    .discovery-container{
+        grid-template-columns: 30% auto;
+    }
+
+    .Discovery-main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     /* Join */
     .join-main{
         display: grid;

@@ -59,9 +59,25 @@
     }
 
     .latestVisit{
+        font-weight: bolder;
+        font-size: larger;
         grid-column: 1 / 3;
     }
 
+    .sidebar {
+        float: left;
+    }
+    
+    .sidebar-calendar {
+        position: sticky;
+        top: 20px; 
+    }
+    
+    .sidebar-container.events{
+        position: sticky;
+        top: 320px;
+    }
+    
     .grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
