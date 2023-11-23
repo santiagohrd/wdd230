@@ -247,6 +247,20 @@ footer{
 
 /* Discover */ 
 
+.latestVisit{
+    background-color: #aed154;
+    border-radius: 20px;
+    text-align: center;
+    padding: 12px;
+    width: 80%;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .sidebar-container{
     background-color: #353646;
     color: var(--p_color_text);
@@ -256,6 +270,15 @@ footer{
 
 .sidebar-container h3{
     text-align: center;
+}
+
+.sidebar-calendar {
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+.Discovery-main img{
+    height: 300px;
 }
 
 /* Join */
