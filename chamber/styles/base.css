@@ -177,7 +177,7 @@ section{
 }
 
 .spot-info{
-    margin: 12px;
+    margin: 0 auto;
     flex-wrap: wrap;
     padding: 15px;
 }
