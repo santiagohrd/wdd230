@@ -79,3 +79,8 @@ function displayForecast(data) {
   }
 
 forecastFetch();
+
+document.addEventListener('DOMContentLoaded', function() {
+    apiFetch();
+    forecastFetch();
+});
