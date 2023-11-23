@@ -26,8 +26,8 @@ async function apiFetch(){
 apiFetch();
 
 function displayResults(data){
-    currentTemp.innerHTML = `${data.main.temp.toFixed(0)} &deg;F`;
-    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}`;
+    currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     
     let desc = data.weather[0].description;
     
@@ -71,7 +71,7 @@ function displayForecast(data) {
       forecastItem.innerHTML = `
         <p>${day}</p>
         <img src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt="${item.weather[0].description}">
-        <p>${item.main.temp.toFixed(0)} &deg;F</p>
+        <p>${item.main.temp.toFixed(0)}&deg;F</p>
       `;
   
       forecastContainer.appendChild(forecastItem);
