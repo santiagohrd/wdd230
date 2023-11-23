@@ -66,6 +66,11 @@ body{
 	font-weight: 700;
 }
 
+
+.nav-title h1 {
+    word-wrap: break-word;
+}
+
 .open li {
     display: block;
 	width: 100%;
