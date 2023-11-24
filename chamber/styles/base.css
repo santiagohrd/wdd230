@@ -66,11 +66,10 @@ body{
 	font-weight: 700;
 }
 
-
-.nav-title h1 {
+.nav-title{
+    width: 200px;
     word-wrap: break-word;
 }
-
 .open li {
     display: block;
 	width: 100%;
