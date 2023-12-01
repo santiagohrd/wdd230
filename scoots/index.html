@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jaime Santiago Herrera David">
+    <meta name="description"
+        content="Scooter rental company site. Operator company caters to locals, walk-in tourists, motor scooter enthusiasts, and cruise-based touring groups and partnerships.">
+    <meta property="og:title" content="Homepage - Scoots company">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.pexels.com/es-es/foto/motocicleta-roja-y-negra-2044873/">
+    <meta property="og:url" content="https://scooters.com">
+    <title>Scoots Rental</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@200&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#rentals">Rentals</a>
+        <a href="#reservations">Reservations</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          &#9776;
+        </a>
+    </nav>
+
+    <div class="hero-image">
+        <form action="rental.html">
+            <button id="join">Rent!</button>
+        </form>
+        <picture>
+            <source srcset="images/banner-sm.webp" media="(max-width:600px)">
+            <source srcset="images/banner-md.webp" media="(max-width:1000px)">
+            <img src="images/banner-lg.webp" alt="Moto Scoots" width="1500" height="850">
+        </picture>
+    </div>
+    <main>
+        <div class="rental-container">
+            <div class="rental-card">
+                <h3>Honda Motor Scooters</h3>
+                <p><strong>Honda Metropolitan (49cc)</strong> - 1 person</p>
+                <p><strong>Honda Dio (110cc)</strong> - 2 person</p>
+                <p><strong>Honda PCX150 (149cc)</strong> - 2 person</p>
+              </div>
+              
+              <div class="rental-card">
+                <h3>Side-by-Side ATVs</h3>
+                <p><strong>Honda Pioneer 1000</strong> - 4 person</p>
+              </div>
+              
+              <div class="rental-card">
+                <h3>Jeeps</h3>
+                <p><strong>Jeep Wrangler - 4 door manuel with A/C</strong> - 5 person</p>
+                <p><strong>Jeep Wrangler - 2 door - open air - manuel</strong> - 4 person</p>
+              </div>
+        </div>
+    </main>
+
+    <footer>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+        <a href="https://twitter.com/" target="_blank">Twitter</a>
+        <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+        <!-- Agrega más enlaces según sea necesario -->
+    </div>
+
+    <div class="contact-info">
+        <p>Email: info@example.com</p>
+        <p>Phone: +123 456 789</p>
+        <p>Address: 123 Street, City, Country</p>
+        <!-- Agrega más información de contacto según sea necesario -->
+    </div>
+    </footer>
+
+    <script src="scripts/menu.js"></script>
+</body>
+</html>
