@@ -1,0 +1,92 @@
+{
+    "rentalPricing": [
+        {
+            "reservation": [
+                {
+                    "type": [
+                        {
+                            "name": "Honda Metro Scooter",
+                            "max": 1,
+                            "halfDay": 20,
+                            "fullDay": 30                            
+                        },
+                        {
+                            "name": "Honda Dio Scooter",
+                            "max": 2,
+                            "halfDay": 30,
+                            "fullDay": 40
+                        },
+                        {
+                            "name": "Honda PCX150 Scooter",
+                            "max": 2,
+                            "halfDay": 40,
+                            "fullDay": 50
+                        },
+                        {
+                            "name": "Honda Pioneer ATV",
+                            "max": 4,
+                            "halfDay": 50,
+                            "fullDay": 70
+                        },
+                        {
+                            "name": "Jeep Wrangler - 4 door with a/c",
+                            "max": 5,
+                            "halfDay": 70,
+                            "fullDay": 100
+                        },
+                        {
+                            "name": "Jeep Wrangler - 2 door",
+                            "max": 4,
+                            "halfDay": 60,
+                            "fullDay": 85
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "walk-in": [
+                {
+                    "type": [
+                        {
+                            "name": "Honda Metro Scooter",
+                            "max": 1,
+                            "halfDay": 25,
+                            "fullDay": 35                            
+                        },
+                        {
+                            "name": "Honda Dio Scooter",
+                            "max": 2,
+                            "halfDay": 35,
+                            "fullDay": 45
+                        },
+                        {
+                            "name": "Honda PCX150 Scooter",
+                            "max": 2,
+                            "halfDay": 45,
+                            "fullDay": 55
+                        },
+                        {
+                            "name": "Honda Pioneer ATV",
+                            "max": 4,
+                            "halfDay": 60,
+                            "fullDay": 80
+                        },
+                        {
+                            "name": "Jeep Wrangler - 4 door with a/c",
+                            "max": 5,
+                            "halfDay": 80,
+                            "fullDay": 125
+                        },
+                        {
+                            "name": "Jeep Wrangler - 2 door",
+                            "max": 4,
+                            "halfDay": 70,
+                            "fullDay": 90
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
