@@ -74,15 +74,28 @@
             </div>
         </section>
 
-        <section class="weather-info">
-            <div id="day-weather">
-                <img id="weather-icon" src="#" alt="#">
-                <span id="current-temp"></span>
+        <section class="weather-container">
+
+            <div id="weather-day">
                 <figure>
                     <figcaption id="current"></figcaption>
                 </figure>
-                <p>Humidity:<span id="humidity"></span></p>
-                <p>Wind Chill:<span id="wind"></span></p>
+                <div class="weather-datetime"></div>
+                <img id="weather-icon" src="#" alt="#">
+                <span id="current-temp"></span>
+
+                <div class="weather_minmax">
+                    <p>Min: 12&#176</p>
+                    <p>Max: 16&#176</p>
+                </div>
+
+                <div class="weather_card">
+                    <div>
+                        <p>Humidity:<span id="humidity"></span></p>
+
+                    </div>
+                </div>
+
             </div>
             
             <div class="forecast">
@@ -127,5 +140,6 @@
     </footer>
 
     <script src="scripts/menu.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
