@@ -8,37 +8,43 @@
                             "name": "Honda Metro Scooter",
                             "max": 1,
                             "halfDay": 20,
-                            "fullDay": 30                            
+                            "fullDay": 30,          
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"                
                         },
                         {
                             "name": "Honda Dio Scooter",
                             "max": 2,
                             "halfDay": 30,
-                            "fullDay": 40
+                            "fullDay": 40,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"  
                         },
                         {
                             "name": "Honda PCX150 Scooter",
                             "max": 2,
                             "halfDay": 40,
-                            "fullDay": 50
+                            "fullDay": 50,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
                         },
                         {
                             "name": "Honda Pioneer ATV",
                             "max": 4,
                             "halfDay": 50,
-                            "fullDay": 70
+                            "fullDay": 70,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
                         },
                         {
                             "name": "Jeep Wrangler - 4 door with a/c",
                             "max": 5,
                             "halfDay": 70,
-                            "fullDay": 100
+                            "fullDay": 100,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
                         },
                         {
                             "name": "Jeep Wrangler - 2 door",
                             "max": 4,
                             "halfDay": 60,
-                            "fullDay": 85
+                            "fullDay": 85,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
                         }
                     ]
                 }
@@ -52,37 +58,43 @@
                             "name": "Honda Metro Scooter",
                             "max": 1,
                             "halfDay": 25,
-                            "fullDay": 35                            
+                            "fullDay": 35,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"
                         },
                         {
                             "name": "Honda Dio Scooter",
                             "max": 2,
                             "halfDay": 35,
-                            "fullDay": 45
+                            "fullDay": 45,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"
                         },
                         {
                             "name": "Honda PCX150 Scooter",
                             "max": 2,
                             "halfDay": 45,
-                            "fullDay": 55
+                            "fullDay": 55,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
                         },
                         {
                             "name": "Honda Pioneer ATV",
                             "max": 4,
                             "halfDay": 60,
-                            "fullDay": 80
+                            "fullDay": 80,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
                         },
                         {
                             "name": "Jeep Wrangler - 4 door with a/c",
                             "max": 5,
                             "halfDay": 80,
-                            "fullDay": 125
+                            "fullDay": 125,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
                         },
                         {
                             "name": "Jeep Wrangler - 2 door",
                             "max": 4,
                             "halfDay": 70,
-                            "fullDay": 90
+                            "fullDay": 90,
+                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
                         }
                     ]
                 }
