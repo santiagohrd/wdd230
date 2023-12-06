@@ -5,8 +5,8 @@ const humidity = document.querySelector('#humidity');
 
 const forecastContainer = document.querySelector('#forecast-container');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=4.72&lon=-74.1&units=imperial&appid=de1bb7d255158b44de8c8b712ff9e354';
-const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=4.72&lon=-74.1&units=imperial&appid=de1bb7d255158b44de8c8b712ff9e354';
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=20.42&lon=-86.92&units=metric&appid=de1bb7d255158b44de8c8b712ff9e354';
+const forecastURL = 'https://api.openweathermap.org/data/2.5/forecast?lat=20.42&lon=-86.92&units=metric&appid=de1bb7d255158b44de8c8b712ff9e354';
 
 async function apiFetch(){
     try{
@@ -25,7 +25,7 @@ async function apiFetch(){
 apiFetch();
 
 function displayResults(data){
-    currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;F`;
+    currentTemp.innerHTML = `${data.main.temp.toFixed(0)}&deg;C`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     
     let desc = data.weather[0].description;
@@ -57,7 +57,7 @@ function displayForecast(data) {
 
     const forecastData = data.list.filter((item) => item.dt_txt.includes('12:00:00'));
   
-    const slicedForecastData = forecastData.slice(0, 3);
+    const slicedForecastData = forecastData.slice(0, 1);
   
     forecastContainer.innerHTML = '';
     slicedForecastData.forEach((item) => {
@@ -69,7 +69,7 @@ function displayForecast(data) {
       forecastItem.innerHTML = `
         <p>${day}</p>
         <img src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt="${item.weather[0].description}">
-        <p>${item.main.temp.toFixed(0)}&deg;F</p>
+        <p>${item.main.temp.toFixed(0)}&deg;C</p>
       `;
   
       forecastContainer.appendChild(forecastItem);
