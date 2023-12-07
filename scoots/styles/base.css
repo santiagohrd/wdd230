@@ -19,7 +19,7 @@ body {
 }
 .nav_info {
   background-color: var(--black);
-  color: #ffffff;
+  color: var(--text-color);
   font-family: 'Josefin Sans', sans-serif;
   height: 200px;
   display: flex;
@@ -43,7 +43,7 @@ nav ul {
 nav ul li a {
   text-decoration: none;
   font-family: 'Josefin Sans', sans-serif;
-  color: #ffffff;
+  color: var(--text-color);
 }
 
 
@@ -51,8 +51,8 @@ nav ul li a {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0,0,0,.3);
 	padding: 3px 7px 6px;
-	background-color: #4B8FC1;
-	color: #ffffff;
+	background-color: var(--primary-color);
+	color: var(--text-color);
  	position: absolute;
 	top: 1rem;
 	right: 1rem;
@@ -77,8 +77,8 @@ nav ul li a {
 	color: #fff;
 }
 .navigation li a:hover {
-    background-color: #bbb;
-	font-weight: 700;
+    background-color: var(--primary-color);
+	  font-weight: 700;
     border-radius: 30%;
 }
 
@@ -99,10 +99,9 @@ nav ul li a {
 }
 
 .active.active  {
-	background-color: #4B8FC1;
+	background-color: var(--primary-color);
     border-radius: 30%;
 }
-
 
 .hero-image{
   margin: 0;
