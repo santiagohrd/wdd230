@@ -19,26 +19,22 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
 
-    <!-- Font family for Logo-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Lato:ital,wght@1,700&family=Raleway:wght@300&family=Sriracha&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-
-
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="Logo Scoots">
+    <header class="nav_info">
+        <div class="nav_logo">
+            <img src="logo.png" alt="Logo Scoots">
+        </div>
         <h1>Scoots</h1>
     </header>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#rentals">Rentals</a>
-        <a href="#reservations">Reservations</a>
-        <a href="#contact">Contact</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          &#9776;
-        </a>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rentals">Rentals</a></li>
+            <li><a href="#reservations">Reservations</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 
     <div class="hero-image">
@@ -54,10 +50,11 @@
     <main>
         <section class="about">
             <div class="box-container">
+                <h2>Discover Cozumel with Scoots: Your Ultimate Scooter Adventure Awaits!"</h2>
                 <p>Scoots is your go-to motor scooter rental company on the stunning island of Cozumel, nestled in the western Caribbean Sea. As a local, owner-operated business, we take pride in offering convenient and friendly services to everyone, from island residents to spontaneous walk-in tourists and avid motor scooter enthusiasts.
                 </p>
             </div>
-            <img src="https://via.placeholder.com/500x300" alt="#">
+            <img src="images/about_img.webp" alt="#">
         </section>
 
         <section class="locations">
@@ -77,12 +74,13 @@
         <section class="weather-container">
 
             <div id="weather-day">
+                <h3>Today</h3>
                 <figure>
                     <figcaption id="current"></figcaption>
                 </figure>
+                <span id="current-temp"></span>
                 <div class="weather-datetime"></div>
                 <img id="weather-icon" src="#" alt="#">
-                <span id="current-temp"></span>
 
                 <div class="weather_minmax">
                     <p>Min: 12&#176</p>
@@ -99,26 +97,32 @@
             </div>
             
             <div class="forecast">
-                <h3>Tomorrow Forecast</h3>
+                <h3>Tomorrow</h3>
                 <div id="forecast-container" class="forecast-grid">
                 </div>
             </div>
         </section>
 
         <section class="rental-container">
-            <div class="rental-card">
-                <h3>Honda Motor Scooters</h3>
-                <img src="https://via.placeholder.com/500x300" alt="#">
+            <div class="rental-card scooter">
+                <div class="rental-card info">
+                    <h3>Honda Motor Scooters</h3>
+                    <img src="https://via.placeholder.com/500x300" alt="#">
+                    <p>The perfect blend of freedom and convenience to explore Cozumel's charm. Zip through vibrant streets, discover hidden gems, and enjoy the island's beauty effortlessly. <br> Our Honda scooters provide a thrilling, efficient, and fun way to make the most of your Cozumel adventure.</p>
+                </div>
             </div>
               
-            <div class="rental-card">
+            <div class="rental-card atv">
                 <h3>Side-by-Side ATVs</h3>
                 <img src="https://via.placeholder.com/500x300" alt="#">
+                <p>Embark on an exhilarating adventure with our Side-by-Side ATVs. Perfect for those craving off-road excitement, these vehicles allow you to conquer Cozumel's rugged terrains. <br>With comfortable seating for up to four, it's a thrilling and sociable way to explore the island's hidden trails and scenic landscapes. Unleash the adventurer in you!</p>
             </div>
               
-            <div class="rental-card">
+            <div class="rental-card jeep">
                 <h3>Jeeps</h3>
                 <img src="https://via.placeholder.com/500x300" alt="#">
+                <p>Escape the ordinary and embrace the extraordinary with our Jeep rentals. Whether it's the rugged 2-door or spacious 4-door with a/c, our Jeeps provide the ultimate freedom to explore Cozumel. <br> From sandy shores to historic sites, these versatile vehicles ensure a comfortable and adventurous journey for groups and families alike.
+                </p>
             </div>
         </section>
     </main>
