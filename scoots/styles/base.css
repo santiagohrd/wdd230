@@ -149,6 +149,10 @@ section{
   margin: 8px;
 }
 
+iframe{
+  display: none;
+}
+
 .weather-container{
   display: flex;
   flex-direction: column;

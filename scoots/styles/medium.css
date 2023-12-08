@@ -1,28 +1,38 @@
 @media screen and (min-width: 600px) {
-    nav a {
-      display: none;
-    }
+  #menu{
+    display: none;
+}
 
-    nav a.icon {
-      float: right;
-      display: block;
-    }
+.navigation{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
 
-    nav.responsive a.icon {
-      position: absolute;
-      top: 0;
-      right: 0;
-    }
+nav {
+    height: 120px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px; 
+}
 
-    nav.responsive a {
-      display: block;
-      text-align: left;
-    }
+.navigation li{
+    list-style: none;
+    display: list-item;
+}
+
 
     .weather-container{
       flex-direction: row;
       justify-content: space-between;
       gap: .5rem;
+    }
+
+    #weather-day, .forecast{
+      height: 350px;
     }
 
   }

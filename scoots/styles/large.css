@@ -1,0 +1,24 @@
+@media screen and (min-width: 800px) {
+    .rental-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .local-weather{
+        display: grid;
+        grid-template-columns: 60% auto;
+        object-fit: cover;
+    }
+
+    iframe{
+        display: block;
+      }
+
+    .weather-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+}
