@@ -19,6 +19,8 @@
         flex-direction: column;
     }
 
-    
+    .rental_options.container{
+        grid-template-columns: repeat(3, 1fr);
+      }
 
 }

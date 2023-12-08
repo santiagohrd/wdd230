@@ -35,5 +35,11 @@ nav {
       height: 350px;
     }
 
+  .rental_options.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
   }
 
