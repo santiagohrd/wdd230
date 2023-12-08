@@ -62,15 +62,18 @@ function displayForecast(data) {
     forecastContainer.innerHTML = '';
     slicedForecastData.forEach((item) => {
       const date = new Date(item.dt * 1000);
-      const day = date.toLocaleDateString('en-US', { weekday: 'short' });
-  
+      const day = date.toLocaleDateString('en-US', { weekday: 'long' });
+      const descp = item.weather[0].description.replace(/\w\S*/g, (w) => (w.replace(/^\w/, (c) => c.toUpperCase())));;
+        
+
+
       const forecastItem = document.createElement('div');
       forecastItem.classList.add('forecast-item');
       forecastItem.innerHTML = `
-        <p>${day}</p>
-        <img src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt="${item.weather[0].description}">
+        <p>${descp}</p>
         <p>${item.main.temp.toFixed(0)}&deg;C</p>
-      `;
+        <img src="https://openweathermap.org/img/w/${item.weather[0].icon}.png" alt="${item.weather[0].description}">
+        `;
   
       forecastContainer.appendChild(forecastItem);
     });

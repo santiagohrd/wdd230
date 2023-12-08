@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
     nav a {
       display: none;
     }
@@ -21,6 +21,9 @@
 
     .weather-container{
       flex-direction: row;
+      justify-content: space-between;
+      gap: .5rem;
     }
+
   }
 
