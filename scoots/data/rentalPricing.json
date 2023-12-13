@@ -1,104 +1,101 @@
 {
     "rentalPricing": [
         {
-            "reservation": [
-                {
-                    "type": [
-                        {
-                            "name": "Honda Metro Scooter",
-                            "max": 1,
-                            "halfDay": 20,
-                            "fullDay": 30,          
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"                
-                        },
-                        {
-                            "name": "Honda Dio Scooter",
-                            "max": 2,
-                            "halfDay": 30,
-                            "fullDay": 40,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"  
-                        },
-                        {
-                            "name": "Honda PCX150 Scooter",
-                            "max": 2,
-                            "halfDay": 40,
-                            "fullDay": 50,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
-                        },
-                        {
-                            "name": "Honda Pioneer ATV",
-                            "max": 4,
-                            "halfDay": 50,
-                            "fullDay": 70,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
-                        },
-                        {
-                            "name": "Jeep Wrangler - 4 door with a/c",
-                            "max": 5,
-                            "halfDay": 70,
-                            "fullDay": 100,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
-                        },
-                        {
-                            "name": "Jeep Wrangler - 2 door",
-                            "max": 4,
-                            "halfDay": 60,
-                            "fullDay": 85,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
-                        }
-                    ]
-                }
-            ]
+            "type": "Reservation",
+            "name": "Honda Metro Scooter",
+            "max": 1,
+            "halfDay": 20,
+            "fullDay": 30,          
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"                
         },
         {
-            "walk-in": [
-                {
-                    "type": [
-                        {
-                            "name": "Honda Metro Scooter",
-                            "max": 1,
-                            "halfDay": 25,
-                            "fullDay": 35,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"
-                        },
-                        {
-                            "name": "Honda Dio Scooter",
-                            "max": 2,
-                            "halfDay": 35,
-                            "fullDay": 45,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"
-                        },
-                        {
-                            "name": "Honda PCX150 Scooter",
-                            "max": 2,
-                            "halfDay": 45,
-                            "fullDay": 55,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
-                        },
-                        {
-                            "name": "Honda Pioneer ATV",
-                            "max": 4,
-                            "halfDay": 60,
-                            "fullDay": 80,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
-                        },
-                        {
-                            "name": "Jeep Wrangler - 4 door with a/c",
-                            "max": 5,
-                            "halfDay": 80,
-                            "fullDay": 125,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
-                        },
-                        {
-                            "name": "Jeep Wrangler - 2 door",
-                            "max": 4,
-                            "halfDay": 70,
-                            "fullDay": 90,
-                            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
-                        }
-                    ]
-                }
-            ]
+            "type": "Reservation",
+            "name": "Honda Dio Scooter",
+            "max": 2,
+            "halfDay": 30,
+            "fullDay": 40,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"  
+        },
+        {
+            "type": "Reservation",
+            "name": "Honda PCX150 Scooter",
+            "max": 2,
+            "halfDay": 40,
+            "fullDay": 50,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
+        },
+        {
+            "type": "Reservation",
+            "name": "Honda Pioneer ATV",
+            "max": 4,
+            "halfDay": 50,
+            "fullDay": 70,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
+        },
+        {
+            "type": "Reservation",
+            "name": "Jeep Wrangler - 4 door with a/c",
+            "max": 5,
+            "halfDay": 70,
+            "fullDay": 100,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
+        },
+        {
+            "type": "Reservation",
+            "name": "Jeep Wrangler - 2 door",
+            "max": 4,
+            "halfDay": 60,
+            "fullDay": 85,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Honda Metro Scooter",
+            "max": 1,
+            "halfDay": 25,
+            "fullDay": 35,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Honda Dio Scooter",
+            "max": 2,
+            "halfDay": 35,
+            "fullDay": 45,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Honda PCX150 Scooter",
+            "max": 2,
+            "halfDay": 45,
+            "fullDay": 55,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Honda Pioneer ATV",
+            "max": 4,
+            "halfDay": 60,
+            "fullDay": 80,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Jeep Wrangler - 4 door with a/c",
+            "max": 5,
+            "halfDay": 80,
+            "fullDay": 125,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
+        },
+        {
+            "type": "Walk-in",
+            "name": "Jeep Wrangler - 2 door",
+            "max": 4,
+            "halfDay": 70,
+            "fullDay": 90,
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
         }
+        
     ]
 }
