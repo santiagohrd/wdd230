@@ -6,7 +6,8 @@
             "max": 1,
             "halfDay": 20,
             "fullDay": 30,          
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp"                
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/metroScooter.webp",
+            "description": "Discover the charm of Cozumel at your own pace with our Honda Metro Scooter. Perfect for solo explorers, this nimble scooter allows you to navigate through the island's vibrant streets effortlessly. Enjoy the freedom to stop at picturesque spots, quaint cafes, and local attractions. With its compact design and fuel efficiency, the Honda Metro is an ideal choice for a carefree solo adventure."              
         },
         {
             "type": "Reservation",
