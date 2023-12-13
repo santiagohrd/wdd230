@@ -15,7 +15,8 @@
             "max": 2,
             "halfDay": 30,
             "fullDay": 40,
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp"  
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/dioScooter.webp",
+            "description": "For those seeking a dynamic duo experience, the Honda Dio Scooter is designed for two, allowing you to share the excitement of Cozumel with a companion. Glide along the scenic coastal roads or venture into the heart of the island together. With its comfortable seating and smooth ride, the Honda Dio ensures a delightful journey, creating memories that you and your companion will cherish."
         },
         {
             "type": "Reservation",
@@ -23,7 +24,8 @@
             "max": 2,
             "halfDay": 40,
             "fullDay": 50,
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp"
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pcx150Scooter.webp",
+            "description": "Elevate your island exploration with the Honda PCX150 Scooter, a stylish and powerful choice for couples or friends. With a bit more horsepower, this scooter offers a thrilling ride while maintaining fuel efficiency. Cruise along the eastern shores or embark on a journey to secluded inlets, experiencing the beauty of Cozumel in tandem. The Honda PCX150 provides a perfect blend of performance and elegance for a memorable day of adventure."
         },
         {
             "type": "Reservation",
@@ -31,7 +33,8 @@
             "max": 4,
             "halfDay": 50,
             "fullDay": 70,
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp"
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/pionnerATV.webp",
+            "description": "For those seeking an off-road adventure, the Honda Pioneer ATV is your ticket to explore Cozumel's rugged terrains and hidden gems. Ideal for groups of up to four, this ATV combines power and versatility, allowing you to venture off the beaten path. Conquer sandy trails, lush jungles, and rocky landscapes with confidence. The Honda Pioneer ATV promises an adrenaline-packed experience for thrill-seekers."
         },
         {
             "type": "Reservation",
@@ -39,7 +42,8 @@
             "max": 5,
             "halfDay": 70,
             "fullDay": 100,
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp"
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler4.webp",
+            "description": "Experience the ultimate freedom of island exploration in our Jeep Wrangler - 4 door with a/c. This spacious and comfortable vehicle is perfect for families or larger groups of friends, offering the convenience of air-conditioning for a relaxed journey. Cruise along the coastal roads, visit historic sites, and enjoy the flexibility to create your own itinerary. The Jeep Wrangler ensures a comfortable and enjoyable adventure for everyone on board."
         },
         {
             "type": "Reservation",
@@ -47,7 +51,8 @@
             "max": 4,
             "halfDay": 60,
             "fullDay": 85,
-            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp"
+            "image": "https://santiagohrd.github.io/wdd230/scoots/data/Images/jeepWrangler2.webp",
+            "description": "Unleash your sense of adventure with our Jeep Wrangler - 2 door, a versatile vehicle that combines ruggedness with agility. Ideal for smaller groups, this Jeep allows you to navigate through both the city streets and off-road trails with ease. Feel the wind in your hair as you explore the eastern and southern coasts, escaping the touristy areas and discovering the true essence of Cozumel's natural beauty. The Jeep Wrangler - 2 door is a symbol of freedom and exploration."
         },
         {
             "type": "Walk-in",
