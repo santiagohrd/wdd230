@@ -41,5 +41,16 @@ nav {
     gap: 12px;
   }
 
+  /*Rental page */
+  #cardsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+  }
+
+  .image-container:hover{
+    transform: scale(1.05);
+  }
+
   }
 
