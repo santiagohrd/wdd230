@@ -25,14 +25,19 @@ function displayCards(pricing) {
         description.classList.add('rental_card', 'text');
         description.textContent = item.description;
 
+        const imageContainer = document.createElement('div');
+        imageContainer.classList.add('image-container');
+
         const image = document.createElement('img');
         image.src = item.image;
         image.alt = item.name;
-        image.classList.add('rental_card', 'metro');
+        image.classList.add('rental_card', "rental");
+
+        imageContainer.appendChild(image);
 
         card.appendChild(title);
         card.appendChild(description);
-        card.appendChild(image);
+        card.appendChild(imageContainer);
 
         cardsContainer.appendChild(card);
     });
