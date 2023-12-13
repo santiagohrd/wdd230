@@ -9,7 +9,7 @@ const metroScooter = document.querySelector("#metroScooter");
 async function pricingData(){
     const response = await fetch(jsondata);
     const data = await response.json();
-    displayInfo(data.rentalPricing.filter(item => item.type === "Reservation"));
+    displayCards(data.rentalPricing.filter(item => item.type === "Reservation"));
 }
 
 function displayCards(pricing) {
@@ -18,13 +18,13 @@ function displayCards(pricing) {
     pricing.forEach(item => {
         const card = document.createElement('div');
         card.classList.add('rental_card');
-        
+
         const title = document.createElement('h3');
         title.textContent = item.name;
 
         const description = document.createElement('p');
         description.classList.add('rental_card', 'text');
-        description.textContent = item.description; // Assuming description is present in the JSON
+        description.textContent = item.description;
 
         const image = document.createElement('img');
         image.src = item.image;
@@ -39,4 +39,4 @@ function displayCards(pricing) {
     });
 }
 
-pricingData(); // Call the function to fetch and display data
+pricingData();
