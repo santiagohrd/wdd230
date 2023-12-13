@@ -4,8 +4,7 @@
 
 const jsondata = 'https://santiagohrd.github.io/wdd230/scoots/data/rentalPricing.json';
 
-const metroScooter = document.querySelector("#metroScooter");
-
+// Cards info
 async function pricingData(){
     const response = await fetch(jsondata);
     const data = await response.json();
