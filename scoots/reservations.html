@@ -45,7 +45,7 @@
             </p>
         </article>
 
-        <div class="form">
+        <section class="form">
 
             <h4>To reserve your chosen vehicle and secure your spot for an unforgettable Cozumel excursion, please complete the form below with accurate details.
             </h4>
@@ -55,17 +55,24 @@
             
                 <label for="period">Rental Period:</label>
                 <select id="period" name="period" required>
+                    <option value="halfDay">Choose an option</option>
                     <option value="halfDay">Half Day</option>
                     <option value="fullDay">Full Day</option>
                 </select>
             
                 <label for="rentalType">Rental Type:</label>
                 <select id="rentalType" name="rentalType" required>
+                    <option value="hondaMetro">Choose an option</option>
                     <option value="hondaMetro">Honda Metro Scooter</option>
+                    <option value="hondaMetro">Honda Dio Scooter</option>
+                    <option value="hondaMetro">Honda PCX150 Scooter</option>
+                    <option value="hondaMetro">Honda Pioneer ATV</option>
+                    <option value="hondaMetro">Jeep Wrangler - 4 door with a/c</option>
+                    <option value="hondaMetro">Jeep Wrangler - 2 door</option>
                 </select>
             
                 <label for="numberOfPeople">Number of People:</label>
-                <input type="number" id="numberOfPeople" name="numberOfPeople" required>
+                <input type="number" id="numberOfPeople" name="numberOfPeople" min="1" max="4" required>
             
                 <label for="phoneNumber">Phone Number:</label>
                 <input type="tel" id="phoneNumber" name="phoneNumber" required>
@@ -92,7 +99,7 @@
             </form>
             
 
-        </div>
+        </section>
 
     </main>   
 
